@@ -11,6 +11,7 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -19,66 +20,72 @@
 
                 <div class="col-md-12">
                     <!-- top nav -->
-                    <div class="navbar navbar-blue navbar-static-top">  
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a href="/" class="navbar-brand logo">b</a>
-                            </div>
-                            <nav class="collapse navbar-collapse" role="navigation">
-                                <form class="navbar-form navbar-left">
-                                    <div class="input-group input-group-sm" style="max-width:360px;">
-                                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                                        <div class="input-group-btn">
-                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="">More</a></li>
-                                            <li><a href="">More</a></li>
-                                            <li><a href="">More</a></li>
-                                            <li><a href="">More</a></li>
-                                            <li><a href="">More</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li>
-                                        <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="#postModal" role="button" data-toggle="modal"><i class="glyphicon glyphicon-plus"></i> Post</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><span class="badge">badge</span></a>
-                                    </li>
-                                </ul>
-                                
-                            </nav>
-                        </div>
-                    </div>
+                    <?php include('menu.php'); ?>  
                     <!-- /top nav -->
                 </div>
+                
+                
+                <!-- slider -->
 
                 <!-- main right col -->
                 <div class="column col-md-10" id="main">
                     <div class="padding">
                         <div class="col-sm-12">
+                            
+                            <div class="row">
+                                <!-- slider -->
+                                <div class="column col-md-12">
+                                    <div class="owl-carousel">
+                                        <img src="images/slider/slider1.jpg" alt="slider1" class="img-responsive">
+                                        <img src="images/slider/slider2.jpg" alt="slider2" class="img-responsive">
+                                        <img src="images/slider/slider3.jpg" alt="slider3" class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="avatar">
+                                         <a href="javascript:void(0);">
+                                            <img src="images/avatar.jpg" alt="Tuấn Nguyễn" class="img-responsive">
+                                         </a>
+                                         <p class="author">Tuấn Nguyễn</p>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <nav class="collapse navbar-collapse navbar-custom" role="navigation">
+                                            
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="#"><i class="glyphicon glyphicon-home"></i> Timeline</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#postModal" role="button" data-toggle="modal">
+                                                        <i class="glyphicon glyphicon-user"></i> Friends
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><span class="badge">Photos</span></a>
+                                                </li>
+                                            </ul>
+                                            <ul class="nav navbar-nav">
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
 
                             <!-- content -->                      
                             <div class="row">
 
                                 <!-- main col left --> 
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 no-pdr">
 
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
@@ -95,9 +102,7 @@
 
 
                                     <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <a href="#" class="pull-right">View all</a> 
-                                            <h4>Bootstrap Examples</h4></div>
+                                        <div class="panel-heading"><h6>REVIEWS</h6></div>
                                         <div class="panel-body">
                                             <div class="list-group">
                                                 <a href="http://bootply.com/tagged/modal" class="list-group-item">Modal / Dialog</a>
@@ -241,69 +246,18 @@
                     </div><!-- /padding -->
                 </div>
                 <!-- /main -->
-                        <!-- sidebar -->
-                    <div class="column col-md-2 sidebar-offcanvas" id="sidebar">
 
-                        <ul class="nav">
-                            <li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                        </ul>
-
-                        <ul class="nav hidden-xs" id="lg-menu">
-                            <li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Featured</a></li>
-                            <li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Stories</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Saved</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Refresh</a></li>
-                        </ul>
-                        <ul class="list-unstyled hidden-xs" id="sidebar-footer">
-                            <li>
-                                <a href="http://www.bootply.com"><h3>Bootstrap</h3> <i class="glyphicon glyphicon-heart-empty"></i> Bootply</a>
-                            </li>
-                        </ul>
-
-                        <!-- tiny only nav-->
-                        <ul class="nav visible-xs" id="xs-menu">
-                            <li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
-                            <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
-                            <li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
-                            <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
-                        </ul>
-
-                    </div>
-                    <!-- /sidebar -->
+                <!-- sidebar -->
+                <?php include('sidebar.php'); ?>  
+                <!-- /sidebar -->
 
                 </div>
 
             </div>
         </div>
+        
+        <?php include('footer.php'); ?> 
 
-
-        <!--post modal-->
-        <div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        Update Status
-                    </div>
-                    <div class="modal-body">
-                        <form class="form center-block">
-                            <div class="form-group">
-                                <textarea class="form-control input-lg" autofocus="" placeholder="What do you want to share?"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <div>
-                            <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">Post</button>
-                            <ul class="pull-left list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
-                        </div>	
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- script references -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
+        
 </body>
 </html>

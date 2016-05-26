@@ -40,14 +40,14 @@ hr {
 }
 
 .column {
-    height: 100%;
+    height: 99%;
     overflow: auto;
     *zoom:1;
 }
 
 .column .padding {
-    padding-top: 60px;
-    width: 1024px;
+    padding-top: 49px;
+    width: 912px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -62,7 +62,7 @@ hr {
     position: absolute;
     right: 0;
     top: 0;
-    background-color:#444444;
+    background-color:#E9EAED;
   /*
     background-image:url('/assets/example/bg_suburb.jpg');
     background-size:cover;
@@ -73,7 +73,56 @@ hr {
 .divider {
   margin-top:32px;
 }
-
+.avatar{
+  width: 220px;
+  position: absolute;
+  z-index: 10;
+}
+.avatar a{
+  display: block;
+  width: 70%;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -130px;
+  left: 30px;
+  border-radius: 3px;
+}
+.avatar a img{
+  border: 4px solid #fff;
+}
+.author{
+    left: 215px;
+    top: -40px;
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 275px;
+    position: relative;
+}
+.navbar-custom{
+    background-color: #fff;
+    z-index: 1;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-left: 200px;
+    border-left: 1px solid #ddd;
+}
+.navbar-custom li{}
+.navbar-custom > ul >li a{
+    padding: 12px 20px;
+    font-size: 14px;
+    border-left: 1px solid #ddd;
+}
+.navbar-custom > ul:last-child>li a{
+    border-right: 1px solid #ddd;
+}
 .navbar-blue {
     border-width:0;
     background-color:#3B5999;
@@ -109,8 +158,8 @@ hr {
 }
 
 #sidebar {
-    padding:0px;
-  padding-top:15px;
+  padding:0px;
+  padding-top:39px;
 }
 
 #sidebar, #sidebar a, #sidebar-footer a {
@@ -129,7 +178,7 @@ hr {
   background-color:#fff;
   color:#3B5999;
   height:28px;
-  width:28px;
+  width:160px;
   margin:9px;
   margin-right:2px;
   margin-left:15px;
@@ -288,4 +337,10 @@ small.text-muted {
   #sidebar, #sidebar a, #sidebar-footer a {
     padding-left:3px;
   }
+}
+.no-pdr{
+  padding-right: 0!important;
+}
+h6{
+  margin: 5px 0;
 }
