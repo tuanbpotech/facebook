@@ -12,6 +12,10 @@
     <![endif]-->
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <style>
+    
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -85,7 +89,7 @@
                             <div class="row">
 
                                 <!-- main col left --> 
-                                <div class="col-sm-4 no-pdr">
+                                <div class="col-sm-4 no-pdr left-sidebar">
 
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
@@ -134,10 +138,62 @@
                                     </div>
 
                                     <div class="panel panel-default">
-                                        <div class="panel-heading"><h4>What Is Bootstrap?</h4></div>
-                                        <div class="panel-body">
-                                            Bootstrap is front end frameworkto build custom web applications that are fast, responsive &amp; intuitive. It consist of CSS and HTML for typography, forms, buttons, tables, grids, and navigation along with custom-built jQuery plug-ins and support for responsive layouts. With dozens of reusable components for navigation, pagination, labels, alerts etc..                          </div>
+                                        <div class="panel-heading">
+                                            <h6>PHOTOS</h6>
+                                            <ul class="nav navbar-nav navbar-more">
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <span class="icon-down"></span>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="">Share</a></li>
+                                                        <li><a href="">Like</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
                                         </div>
+                                        <div class="panel-body">
+                                            <div class="photos">
+                                                <a href="images/photo/photo2.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Image caption 1">
+                                                    <img src="images/photo/photo2.jpg" width="2048" height="1369" />
+                                                </a>
+                                                <a href="images/photo/photo3.jpg" target="_blank">
+                                                <img src="images/photo/photo3.jpg" width="2048" height="1280" />
+                                                </a>
+                                                <a href="images/photo/photo4.jpg" target="_blank">
+                                                <img src="images/photo/photo4.jpg" width="1370" height="2048" />
+                                                </a>
+                                                <a href="images/photo/photo5.jpg" target="_blank">
+                                                <img src="images/photo/photo5.jpg" width="1249" height="2048" />
+                                                </a>
+                                                <a href="images/photo/photo6.jpg" target="_blank">
+                                                <img src="images/photo/photo6.jpg" width="1713" height="2048" />
+                                                </a>
+                                                <a href="images/photo/photo7.jpg" target="_blank">
+                                                <img src="images/photo/photo7.jpg" width="2048" height="1367" /></a>
+                                                <a href="images/photo/photo8.jpg" target="_blank">
+                                                <img src="images/photo/photo8.jpg" width="2048" height="1367" /></a>
+                                                <a href="images/photo/photo9.jpg" target="_blank">
+                                                <img src="images/photo/photo9.jpg" width="2048" height="1369" /></a>
+                                                <a href="images/photo/photo10.jpg" target="_blank">
+                                                <img src="images/photo/photo10.jpg" width="2048" height="1582" /></a>
+                                                <a href="images/photo/photo11.jpg" target="_blank">
+                                                <img src="images/photo/photo11.jpg" width="1536" height="2048" /></a>
+                                                <a href="images/photo/photo12.jpg" target="_blank">
+                                                <img src="images/photo/photo12.jpg" width="2048" height="1367" /></a>
+                                                <a href="images/photo/photo13.jpg" target="_blank">
+                                                <img src="images/photo/photo13.jpg" width="2048" height="1366" /></a>
+                                                <a href="images/photo/photo14.jpg" target="_blank">
+                                                <img src="images/photo/photo14.jpg" width="2048" height="1367" /></a>
+                                                <a href="images/photo/photo15.jpg" target="_blank">
+                                                <img src="images/photo/photo15.jpg" width="2048" height="1366" /></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
 
 
 
@@ -156,62 +212,281 @@
                                         </form>
                                     </div>
 
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Bootply Editor &amp; Code Library</h4></div>
-                                        <div class="panel-body">
-                                            <p><img src="//placehold.it/150x150" class="img-circle pull-right"> <a href="#">The Bootstrap Playground</a></p>
-                                            <div class="clearfix"></div>
-                                            <hr>
-                                            Design, build, test, and prototype using Bootstrap in real-time from your Web browser. Bootply combines the power of hand-coded HTML, CSS and JavaScript with the benefits of responsive design using Bootstrap. Find and showcase Bootstrap-ready snippets in the 100% free Bootply.com code repository.
+                                    
+
+                                    <article class="post panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="post-author">
+                                                <a href="#"><img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive"></a>
+                                            </div>
+
+                                            <div class="post-meta">
+                                                <a href="">Tuấn Nguyễn</a>
+                                                <ul class="list-meta list-inline">
+                                                    <li class="post-date">May 25 at 5:28pm</li>
+                                                    <li class="presentation"> · </li>
+                                                    <li class="post-location">Đà Nẵng</li>
+                                                </ul>
+                                                <ul class="nav navbar-nav navbar-more">
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-down"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="">Share</a></li>
+                                                            <li><a href="">Like</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
                                         </div>
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Stackoverflow</h4></div>
                                         <div class="panel-body">
-                                            <img src="//placehold.it/150x150" class="img-circle pull-right"> <a href="#">Keyword: Bootstrap</a>
-                                            <div class="clearfix"></div>
+                                            <div class="status">
+                                                <p>11.06.2016. Chế nào muốn tham gia không? =)))</p>
+                                            </div>   
+                                            <div class="thumbnail"><a href="#"><img src="images/post/thumbnail.jpeg" alt=""></a></div>
+                                            <div class="content">
+                                                <h5 class="title">DANANG ELECTRONIC CARNIVAL (DEC)</h5>
+                                                <p class="desc">Lần đầu tiên được tổ chức với quy mô lớn tại Thành phố Đà Nẵng, DEC hứa hẹn sẽ mang lại sân chơi tầm cỡ quốc tế cho các bạn trẻ yêu nhạc điện tử và hấp dẫn du khách trẻ trên toàn quốc & quốc tế.</p>
+                                            </div>
                                             <hr>
-
-                                            <p>If you're looking for help with Bootstrap code, the <code>twitter-bootstrap</code> tag at <a href="http://stackoverflow.com/questions/tagged/twitter-bootstrap">Stackoverflow</a> is a good place to find answers.</p>
-
-                                            <hr>
+                                            <ul class="list-inline social">
+                                                <li><a href="#" class="like">Like</a></li>
+                                                <li><a href="#" class="comment">Comment</a></li>
+                                                <li><a href="#" class="share">Share</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-footer">
                                             <form>
-                                                <div class="input-group">
-                                                    <div class="input-group-btn">
-                                                        <button class="btn btn-default">+1</button><button class="btn btn-default"><i class="glyphicon glyphicon-share"></i></button>
-                                                    </div>
-                                                    <input type="text" class="form-control" placeholder="Add a comment..">
+                                                <div class="comment">
+                                                    <img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive">
+                                                    <input type="text" class="comment-form" placeholder="Add a comment..">
                                                 </div>
                                             </form>
 
                                         </div>
-                                    </div>
+                                    </article>
+                                    
+                                    <article class="post panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="post-author">
+                                                <a href="#"><img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive"></a>
+                                            </div>
 
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Portlet Heading</h4></div>
+                                            <div class="post-meta">
+                                                <a href="">Tuấn Nguyễn</a>
+                                                <ul class="list-meta list-inline">
+                                                    <li class="post-date">May 25 at 5:28pm</li>
+                                                    <li class="presentation"> · </li>
+                                                    <li class="post-location">Đà Nẵng</li>
+                                                </ul>
+                                                <ul class="nav navbar-nav navbar-more">
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-down"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="">Share</a></li>
+                                                            <li><a href="">Like</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
                                         <div class="panel-body">
-                                            <ul class="list-group">
-                                                <li class="list-group-item">Modals</li>
-                                                <li class="list-group-item">Sliders / Carousel</li>
-                                                <li class="list-group-item">Thumbnails</li>
+                                            <div class="status">
+                                                <p>11.06.2016. Chế nào muốn tham gia không? =)))</p>
+                                            </div>   
+                                            <div class="thumbnail"><a href="#"><img src="images/post/thumbnail.jpeg" alt=""></a></div>
+                                            <div class="content">
+                                                <h5 class="title">DANANG ELECTRONIC CARNIVAL (DEC)</h5>
+                                                <p class="desc">Lần đầu tiên được tổ chức với quy mô lớn tại Thành phố Đà Nẵng, DEC hứa hẹn sẽ mang lại sân chơi tầm cỡ quốc tế cho các bạn trẻ yêu nhạc điện tử và hấp dẫn du khách trẻ trên toàn quốc & quốc tế.</p>
+                                            </div>
+                                            <hr>
+                                            <ul class="list-inline social">
+                                                <li><a href="#" class="like">Like</a></li>
+                                                <li><a href="#" class="comment">Comment</a></li>
+                                                <li><a href="#" class="share">Share</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                        <div class="panel-footer">
+                                            <form>
+                                                <div class="comment">
+                                                    <img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive">
+                                                    <input type="text" class="comment-form" placeholder="Add a comment..">
+                                                </div>
+                                            </form>
 
-                                    <div class="panel panel-default">
-                                        <div class="panel-thumbnail"><img src="images/bg_4.jpg" class="img-responsive"></div>
-                                        <div class="panel-body">
-                                            <p class="lead">Social Good</p>
-                                            <p>1,200 Followers, 83 Posts</p>
-
-                                            <p>
-                                                <img src="https://lh6.googleusercontent.com/-5cTTMHjjnzs/AAAAAAAAAAI/AAAAAAAAAFk/vgza68M4p2s/s28-c-k-no/photo.jpg" width="28px" height="28px">
-                                                <img src="https://lh4.googleusercontent.com/-6aFMDiaLg5M/AAAAAAAAAAI/AAAAAAAABdM/XjnG8z60Ug0/s28-c-k-no/photo.jpg" width="28px" height="28px">
-                                                <img src="https://lh4.googleusercontent.com/-9Yw2jNffJlE/AAAAAAAAAAI/AAAAAAAAAAA/u3WcFXvK-g8/s28-c-k-no/photo.jpg" width="28px" height="28px">
-                                            </p>
                                         </div>
-                                    </div>
+                                    </article>
+                                    <article class="post panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="post-author">
+                                                <a href="#"><img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive"></a>
+                                            </div>
+
+                                            <div class="post-meta">
+                                                <a href="">Tuấn Nguyễn</a>
+                                                <ul class="list-meta list-inline">
+                                                    <li class="post-date">May 25 at 5:28pm</li>
+                                                    <li class="presentation"> · </li>
+                                                    <li class="post-location">Đà Nẵng</li>
+                                                </ul>
+                                                <ul class="nav navbar-nav navbar-more">
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-down"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="">Share</a></li>
+                                                            <li><a href="">Like</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="status">
+                                                <p>11.06.2016. Chế nào muốn tham gia không? =)))</p>
+                                            </div>   
+                                            <div class="thumbnail"><a href="#"><img src="images/post/thumbnail.jpeg" alt=""></a></div>
+                                            <div class="content">
+                                                <h5 class="title">DANANG ELECTRONIC CARNIVAL (DEC)</h5>
+                                                <p class="desc">Lần đầu tiên được tổ chức với quy mô lớn tại Thành phố Đà Nẵng, DEC hứa hẹn sẽ mang lại sân chơi tầm cỡ quốc tế cho các bạn trẻ yêu nhạc điện tử và hấp dẫn du khách trẻ trên toàn quốc & quốc tế.</p>
+                                            </div>
+                                            <hr>
+                                            <ul class="list-inline social">
+                                                <li><a href="#" class="like">Like</a></li>
+                                                <li><a href="#" class="comment">Comment</a></li>
+                                                <li><a href="#" class="share">Share</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-footer">
+                                            <form>
+                                                <div class="comment">
+                                                    <img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive">
+                                                    <input type="text" class="comment-form" placeholder="Add a comment..">
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </article>
+                                    <article class="post panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="post-author">
+                                                <a href="#"><img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive"></a>
+                                            </div>
+
+                                            <div class="post-meta">
+                                                <a href="">Tuấn Nguyễn</a>
+                                                <ul class="list-meta list-inline">
+                                                    <li class="post-date">May 25 at 5:28pm</li>
+                                                    <li class="presentation"> · </li>
+                                                    <li class="post-location">Đà Nẵng</li>
+                                                </ul>
+                                                <ul class="nav navbar-nav navbar-more">
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-down"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="">Share</a></li>
+                                                            <li><a href="">Like</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="status">
+                                                <p>11.06.2016. Chế nào muốn tham gia không? =)))</p>
+                                            </div>   
+                                            <div class="thumbnail"><a href="#"><img src="images/post/thumbnail.jpeg" alt=""></a></div>
+                                            <div class="content">
+                                                <h5 class="title">DANANG ELECTRONIC CARNIVAL (DEC)</h5>
+                                                <p class="desc">Lần đầu tiên được tổ chức với quy mô lớn tại Thành phố Đà Nẵng, DEC hứa hẹn sẽ mang lại sân chơi tầm cỡ quốc tế cho các bạn trẻ yêu nhạc điện tử và hấp dẫn du khách trẻ trên toàn quốc & quốc tế.</p>
+                                            </div>
+                                            <hr>
+                                            <ul class="list-inline social">
+                                                <li><a href="#" class="like">Like</a></li>
+                                                <li><a href="#" class="comment">Comment</a></li>
+                                                <li><a href="#" class="share">Share</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-footer">
+                                            <form>
+                                                <div class="comment">
+                                                    <img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive">
+                                                    <input type="text" class="comment-form" placeholder="Add a comment..">
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </article>
+                                    <article class="post panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="post-author">
+                                                <a href="#"><img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive"></a>
+                                            </div>
+
+                                            <div class="post-meta">
+                                                <a href="">Tuấn Nguyễn</a>
+                                                <ul class="list-meta list-inline">
+                                                    <li class="post-date">May 25 at 5:28pm</li>
+                                                    <li class="presentation"> · </li>
+                                                    <li class="post-location">Đà Nẵng</li>
+                                                </ul>
+                                                <ul class="nav navbar-nav navbar-more">
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-down"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="">Share</a></li>
+                                                            <li><a href="">Like</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                            <li><a href="">More</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="status">
+                                                <p>11.06.2016. Chế nào muốn tham gia không? =)))</p>
+                                            </div>   
+                                            <div class="thumbnail"><a href="#"><img src="images/post/thumbnail.jpeg" alt=""></a></div>
+                                            <div class="content">
+                                                <h5 class="title">DANANG ELECTRONIC CARNIVAL (DEC)</h5>
+                                                <p class="desc">Lần đầu tiên được tổ chức với quy mô lớn tại Thành phố Đà Nẵng, DEC hứa hẹn sẽ mang lại sân chơi tầm cỡ quốc tế cho các bạn trẻ yêu nhạc điện tử và hấp dẫn du khách trẻ trên toàn quốc & quốc tế.</p>
+                                            </div>
+                                            <hr>
+                                            <ul class="list-inline social">
+                                                <li><a href="#" class="like">Like</a></li>
+                                                <li><a href="#" class="comment">Comment</a></li>
+                                                <li><a href="#" class="share">Share</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-footer">
+                                            <form>
+                                                <div class="comment">
+                                                    <img src="images/avatar-tuan.jpg" alt="Avatar" class="img-responsive">
+                                                    <input type="text" class="comment-form" placeholder="Add a comment..">
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </article>
+
+                                    
 
                                 </div>
                             </div><!--/row-->
@@ -219,27 +494,9 @@
                             <div class="row">
                                 <div class="col-sm-8">
                                     <a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
+                                    <a href="#" class="pull-right">©Copyright 2013</a>
                                 </div>
                             </div>
-
-                            <div class="row" id="footer">    
-                                <div class="col-sm-6">
-
-                                </div>
-                                <div class="col-sm-6">
-                                    <p>
-                                        <a href="#" class="pull-right">©Copyright 2013</a>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <hr>
-
-                            <h4 class="text-center">
-                                <a href="http://bootply.com/96266" target="ext">Download this Template @Bootply</a>
-                            </h4>
-
-                            <hr>
 
 
                         </div><!-- /col-9 -->

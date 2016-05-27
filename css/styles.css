@@ -1,7 +1,7 @@
 /* custom template */
 html, body {
    height: 100%;
-   font-family:verdana,arial,sans-serif;
+   font-family: helvetica, arial, sans-serif;
    color:#555555;
 }
 
@@ -20,6 +20,7 @@ a:hover {
 
 hr {
   border-color:#dedede;
+  margin: 15px 0 0 0;
 }
 
 .wrapper, .row {
@@ -73,6 +74,8 @@ hr {
 .divider {
   margin-top:32px;
 }
+
+/* Avatar */
 .avatar{
   width: 220px;
   position: absolute;
@@ -101,6 +104,149 @@ hr {
     line-height: 30px;
     max-width: 275px;
     position: relative;
+}
+
+/* POST AUTHOR */
+.post .post-author{
+      position: relative;
+      float: left;
+      width: 7.5%;
+      display: block;
+}
+.post .post-meta{
+    float: left;
+    width: 92.5%;
+    padding-left: 10px;
+}
+.post .post-meta a{
+    display: block;
+    width: 100%;
+    clear: both;
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.38;
+}
+.post .post-meta .list-meta{
+    padding: 0;
+    margin: 0;
+}
+.post .post-meta .list-meta li{
+    color: #90949c;
+    font-size: 12px;
+    padding: 0;
+}
+.post .post-meta .list-meta li a{}
+.navbar-more{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.icon-down{
+  background-image: url('../images/icon2.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -337px -196px;
+  display: block;
+  height: 20px;
+  opacity: 1;
+  width: 16px;
+}
+
+/*  PANEL POST */
+.post .panel-body{
+    padding: 0 12px 5px;
+}
+
+
+.post .panel-body img{
+  width: 100%;
+}
+.post .panel-body .content {
+    height: auto;
+    padding: 10px 12px;
+    max-height: 100px;
+    font-size: 12px;
+    margin: -1px 0 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 4px rgba(0, 0, 0, .1);
+}
+.post .panel-body .thumbnail{
+  padding: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+.post .panel-body .content .title{
+    margin-top: 0;
+    color: #1d2129;
+    font-family: Georgia, 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 5px;
+    max-height: 110px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.post .panel-body .social{
+    margin: 0;
+    padding: 5px 0 0;
+}
+.post .panel-body .social li{}
+
+.post .panel-body .social li a{
+  color: #7f7f7f;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  margin-right: 20px;
+  padding: 4px 4px 4px 0;
+}
+.post .panel-body .social li a:before{
+  content: '';
+  display: inline-block;
+  height: 14px;
+  margin: 0 6px -3px 0;
+  width: 14px;
+}
+.post .panel-body .social li a.like:before{
+  background-image: url('../images/icon.png');
+background-repeat: no-repeat;
+background-size: auto;
+background-position: -30px -490px;
+}
+.post .panel-body .social li a.comment:before{
+  background-image: url('../images/icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -15px -490px;
+}
+.post .panel-body .social li a.share:before{
+  background-image: url('../images/icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -15px -490px;
+}
+.post .panel-body .content .desc{}
+.post .panel-footer{
+  display: block;
+  overflow: hidden;
+}
+.post .panel-footer img{
+    width: 6%;
+    float: left;
+}
+.post .panel-footer input{
+    float: left;
+    width: 92%;
+    line-height: 27px;
+    padding: 0 5px;
+    font-size: 12px;
+    margin-left: 10px;
 }
 .navbar-custom{
     background-color: #fff;
@@ -255,8 +401,14 @@ h1,h2,h3 {
 }
 
 .panel-default .panel-heading {
-  background-color:#f9fafb;
+  position: relative;
+  display: block;
+  clear: both;
+  background-color: #FFFFFF;
   color:#555555;
+  border: none;
+  padding: 12px;
+  min-height: 65px;
 }
 
 .col-sm-9.full {
@@ -344,3 +496,30 @@ small.text-muted {
 h6{
   margin: 5px 0;
 }
+
+
+
+.left-sidebar .panel-default .panel-heading{
+  min-height: auto;
+}
+.left-sidebar .panel-default .panel-heading .dropdown-toggle{
+  padding: 0;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.left-sidebar .panel-default .panel-body{
+  padding: 5px;
+}
+.dropdown-toggle:hover{
+  background-color: transparent!important;
+}
+
+
+.masonry img {
+    box-sizing: border-box;
+    border: 2px solid #fff;
+}
+
+
+

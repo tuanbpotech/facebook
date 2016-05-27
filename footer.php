@@ -28,16 +28,21 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/zoomable.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/masonry.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
+ 
         $(".owl-carousel").owlCarousel({
-            loop:true,
-            margin:10,
-            nav:true,
-            items:1,
-            autoplay:true,
-            autoplayTimeout:1000,
+
+            navigation : false, 
+            pagination: false,
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            autoPlay: true,
+
         });
+ 
 
         $('.avatar .img-responsive').zoomable({
 
@@ -51,6 +56,10 @@
             shadow:  '0 0 23px #000'
           
         });
+        //$fn.gallery(ToBoxWidth);
+         $('.masonry').masonry({rowMinAspectRatio: 3.3, borderWidth: 4});
+
+
 
     });
 </script>
