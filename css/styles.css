@@ -247,6 +247,7 @@ background-position: -30px -490px;
     padding: 0 5px;
     font-size: 12px;
     margin-left: 10px;
+    border: 1px solid rgba(204, 204, 204, 0.64);
 }
 .navbar-custom{
     background-color: #fff;
@@ -305,14 +306,12 @@ background-position: -30px -490px;
 
 #sidebar {
   padding:0px;
-  padding-top:39px;
+  padding-top: 50px;
 }
 
 #sidebar, #sidebar a, #sidebar-footer a {
-    color:#ffffff;
+    color: #444444;
     background-color:transparent;
-  text-shadow:0 0 2px #000000;
-    padding-left:5px;
 }
 #sidebar .nav li>a:hover {
     background-color:#393939;
@@ -516,10 +515,44 @@ h6{
 }
 
 
-.masonry img {
-    box-sizing: border-box;
-    border: 2px solid #fff;
+.photos a {
+  float: left;
+  width: 84px;
+  margin: 2px;
+  height: 84px;
+}
+.photos a img {
+  width: 100%;
+  height: 100%;
 }
 
 
-
+.nav-post{
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+.nav-post li{
+  background-color: #fff;
+  float: left;
+  width: 100%;
+}
+.nav-post li a{
+  width: 100%;
+  overflow: hidden;
+  padding: 5px;
+  float: left;
+}
+.nav-post li a img{
+  width: 25%;
+  height: 40px;
+  float: left;
+}
+.nav-post li a p{
+  float: left;
+  width: 70%;
+  margin: 0;
+  font-size: 11px;
+  padding-left: 5px;
+}

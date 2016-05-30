@@ -158,44 +158,64 @@
                                         <div class="panel-body">
                                             <div class="photos">
                                                 <a href="images/photo/photo2.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Image caption 1">
-                                                    <img src="images/photo/photo2.jpg" width="2048" height="1369" />
+                                                    <img src="images/photo/photo2.jpg"/>
                                                 </a>
                                                 <a href="images/photo/photo3.jpg" target="_blank">
-                                                <img src="images/photo/photo3.jpg" width="2048" height="1280" />
+                                                    <img src="images/photo/photo3.jpg" />
                                                 </a>
                                                 <a href="images/photo/photo4.jpg" target="_blank">
-                                                <img src="images/photo/photo4.jpg" width="1370" height="2048" />
+                                                    <img src="images/photo/photo4.jpg" />
                                                 </a>
                                                 <a href="images/photo/photo5.jpg" target="_blank">
-                                                <img src="images/photo/photo5.jpg" width="1249" height="2048" />
+                                                    <img src="images/photo/photo5.jpg" />
                                                 </a>
                                                 <a href="images/photo/photo6.jpg" target="_blank">
-                                                <img src="images/photo/photo6.jpg" width="1713" height="2048" />
+                                                    <img src="images/photo/photo6.jpg" />
                                                 </a>
                                                 <a href="images/photo/photo7.jpg" target="_blank">
-                                                <img src="images/photo/photo7.jpg" width="2048" height="1367" /></a>
+                                                    <img src="images/photo/photo7.jpg" /></a>
                                                 <a href="images/photo/photo8.jpg" target="_blank">
-                                                <img src="images/photo/photo8.jpg" width="2048" height="1367" /></a>
+                                                    <img src="images/photo/photo8.jpg" /></a>
                                                 <a href="images/photo/photo9.jpg" target="_blank">
-                                                <img src="images/photo/photo9.jpg" width="2048" height="1369" /></a>
+                                                    <img src="images/photo/photo9.jpg"/></a>
                                                 <a href="images/photo/photo10.jpg" target="_blank">
-                                                <img src="images/photo/photo10.jpg" width="2048" height="1582" /></a>
-                                                <a href="images/photo/photo11.jpg" target="_blank">
-                                                <img src="images/photo/photo11.jpg" width="1536" height="2048" /></a>
-                                                <a href="images/photo/photo12.jpg" target="_blank">
-                                                <img src="images/photo/photo12.jpg" width="2048" height="1367" /></a>
-                                                <a href="images/photo/photo13.jpg" target="_blank">
-                                                <img src="images/photo/photo13.jpg" width="2048" height="1366" /></a>
-                                                <a href="images/photo/photo14.jpg" target="_blank">
-                                                <img src="images/photo/photo14.jpg" width="2048" height="1367" /></a>
-                                                <a href="images/photo/photo15.jpg" target="_blank">
-                                                <img src="images/photo/photo15.jpg" width="2048" height="1366" /></a>
+                                                    <img src="images/photo/photo10.jpg" /></a>
+                                                
                                             </div>
 
                                         </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h6>INSTAGRAM</h6>
+                                            <ul class="nav navbar-nav navbar-more">
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <span class="icon-down"></span>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="">Share</a></li>
+                                                        <li><a href="">Like</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                        <li><a href="">More</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-body">
+                                            <iframe src="https://snapwidget.com/embed/177949" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:270px; height:270px"></iframe>
+                                        </div>
                                     </div>
 
-
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
+                                        </div>
+                                    </div>
+                                    <!-- SnapWidget -->
 
                                 </div>
 
@@ -491,14 +511,7 @@
                                 </div>
                             </div><!--/row-->
 
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
-                                    <a href="#" class="pull-right">©Copyright 2013</a>
-                                </div>
-                            </div>
-
-
+                
                         </div><!-- /col-9 -->
                     </div><!-- /padding -->
                 </div>
