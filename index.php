@@ -21,11 +21,11 @@
         <div class="box">
             <div class="row row-offcanvas row-offcanvas-left">
 
-                <div class="col-md-12">
+                <header class="col-md-12">
                     <!-- top nav -->
                     <?php include('menu.php'); ?>  
                     <!-- /top nav -->
-                </div>
+                </header>
                 
                 
                 <!-- slider -->
@@ -220,6 +220,8 @@
                                             <iframe src="https://snapwidget.com/embed/177949" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:270px; height:270px"></iframe>
                                         </div>
                                     </div>
+                                        
+                                    
 
                                     <div class="panel panel-default">
                                         <div class="panel-body">
@@ -227,11 +229,33 @@
                                         </div>
                                     </div>
                                     <!-- SnapWidget -->
-
+                                    <div id="sidebar" class="panel panel-default">
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>
+                                        <h3>Sidebar</h3>
+                                        <p>Sidebar Content</p>  
+                                    </div>
+                                    <!-- SnapWidget -->
                                 </div>
 
                                 <!-- main col right -->
-                                <div class="col-sm-8">
+                                <div class="col-sm-8 content">
 
                                     <div class="well"> 
                                         <form class="form">
@@ -529,7 +553,6 @@
                 <!-- /main -->
 
                 <!-- sidebar -->
-                <?php include('sidebar.php'); ?>  
                 <!-- /sidebar -->
 
                 </div>

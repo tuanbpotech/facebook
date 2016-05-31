@@ -1,3 +1,4 @@
+<footer></footer>
 <!--post modal-->
 <div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -110,7 +111,12 @@
         $(".btn-pref .btn").click(function () {
         $(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
         $(this).removeClass("btn-default").addClass("btn-primary");   
+        $.lockfixed("#sidebar", {offset: {top: 40, bottom: 470} });
+    
     });
+
 
     });
 </script>
+
+

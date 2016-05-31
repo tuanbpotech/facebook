@@ -1,6 +1,4 @@
 <div class="column col-md-2 sidebar-offcanvas" id="sidebar">
-
-
     <ul class="nav-post hidden-xs" id="lg-menu">
         <li class="active">
             <a href="#featured">
