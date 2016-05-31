@@ -11,7 +11,6 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/fonts.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
 
@@ -553,6 +552,7 @@
                 <!-- /main -->
 
                 <!-- sidebar -->
+                    
                 <!-- /sidebar -->
 
                 </div>
