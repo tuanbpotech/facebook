@@ -11,11 +11,10 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
-    <style>
-    
-    </style>
+
 </head>
 <body>
     <div class="wrapper">
@@ -57,7 +56,7 @@
                                             
                                             <ul class="nav navbar-nav">
                                                 <li>
-                                                    <a href="#"><i class="glyphicon glyphicon-home"></i> Timeline</a>
+                                                    <a href="index.php"><i class="glyphicon glyphicon-home"></i> Timeline</a>
                                                 </li>
                                                 <li>
                                                     <a href="#postModal" role="button" data-toggle="modal">
@@ -65,7 +64,19 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><span class="badge">Photos</span></a>
+                                                    <a href="photos.php">
+                                                        <i class="glyphicon glyphicon-picture"></i> Photos
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="instagram.php">
+                                                        <i class="glyphicon glyphicon-picture"></i> Photos Instagram
+                                                    </a>
+                                                </li>
+                                                 <li>
+                                                    <a href="youtube.php">
+                                                        <i class="glyphicon glyphicon-video"></i> Video
+                                                    </a>
                                                 </li>
                                             </ul>
                                             <ul class="nav navbar-nav">

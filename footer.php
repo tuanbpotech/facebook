@@ -29,6 +29,11 @@
 <script src="js/zoomable.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/masonry.js"></script>
+<script src="js/fbfpalbums.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/pongstagr.am.min.js"></script>
+<script src="js/ycp.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function() {
  
@@ -60,6 +65,52 @@
          $('.masonry').masonry({rowMinAspectRatio: 3.3, borderWidth: 4});
 
 
+        // Setting fancybox
+        $(".fbfppopup").fancybox({
+            openEffect : 'fade',
+            closeEffect : 'fade'
+        });
+
+        // Setting fbfpalbums
+        $(".anu").fbfpalbums(
+            fp = "744858075584501", // your username or id facebook fans page
+            token = "EAACEdEose0cBAJ3mDd6XdhuIBZARYStiMyY6qgtfI2VM0ezfa2UjuAQIcwqQwjjOWjZCx8ABmY2hF4jJGnkN5hZBgitbZCCiEMAA3MP3nb3duxDet6UZAcZB3hglUME7IJvZBwBrhJE32XGwCF4aZBMRYUF9m2s3p9cNpL72ZBfjECwZDZD" // your facebook accessToken
+        );
+
+        // Instagram
+        $('#profile').pongstgrm({
+            accessId:     '3127861128',
+            accessToken:  '3127861128.1677ed0.f6b92785be4f41d68691a2d826c0b7e0',
+            show:             'profile',
+            picture_size:     '100',                  // sets profile picture to 64x64 pixels, no need to add px
+            profile_bg_img:   '/facebook/images/img-instagram.jpg', // image url
+            profile_bg_color: '#d9534f'             // background color
+        });
+        $('#recent').pongstgrm({ 
+            accessId:     '3127861128',
+            accessToken:  '3127861128.1677ed0.f6b92785be4f41d68691a2d826c0b7e0',
+            show: 'recent' 
+        });
+        $('#tag').pongstgrm({ 
+            accessId:     '3127861128',
+            accessToken:  '3127861128.1677ed0.f6b92785be4f41d68691a2d826c0b7e0',
+            show: 'kyo1122' 
+        });
+
+        // Youtube
+        ibacor_ycp(
+            channels_name = 'UCxeibLYCcw3Uj894qfzrDhw', //example
+            channels_title = 'TuanNguyen Channel',
+            type = 'id', // type='forUsername' (by user) or type='id' (by channel)
+            list_count = 50, // number of videos playlist
+            autoplay = false, //true or false
+            apikey = 'AIzaSyCDdp0sm-wBnfJcTkKORSemi04OQGYPO3o'
+        );
+
+        $(".btn-pref .btn").click(function () {
+        $(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
+        $(this).removeClass("btn-default").addClass("btn-primary");   
+    });
 
     });
 </script>
