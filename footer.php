@@ -109,12 +109,11 @@
         );
 
         $(".btn-pref .btn").click(function () {
-        $(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
-        $(this).removeClass("btn-default").addClass("btn-primary");   
-        $.lockfixed("#sidebar", {offset: {top: 40, bottom: 470} });
-    
-    });
-
+            $(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
+            $(this).removeClass("btn-default").addClass("btn-primary");   
+            $.lockfixed("#sidebar", {offset: {top: 40, bottom: 470} });
+        
+        });
 
     });
 </script>

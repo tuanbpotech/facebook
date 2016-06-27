@@ -114,6 +114,15 @@
                                     
                                     <div class="photo-content">
                                         <div class="anu"></div>
+                                        <div id="ibacor_fb_content">
+
+                                            <!-- Your facebook Profile -->
+                                            <div class="ibacor_fb_profile"></div>
+
+                                            <!-- Your facebook streaming -->
+                                            <div class="ibacor_fb_streaming"></div>
+                                            
+                                        </div>
                                     </div>
                                 </div>    
                                 <!-- /content-photo -->

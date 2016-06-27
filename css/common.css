@@ -1,0 +1,122 @@
+/* custom template */
+html, body {
+   height: 100%;
+   font-family: 'arial', sans-serif;
+   color:#555555;
+}
+
+.nav {
+   font-family:Arial,sans-serif;
+   font-size:13px;
+}
+
+a {
+  color: #4b4f56;
+}
+
+a:hover {
+  color: #4b4f56;
+}
+
+hr {
+  border-color:#dedede;
+  margin: 15px 0 0 0;
+}
+
+.wrapper, .row {
+   height: 100%;
+   margin-left:0;
+   margin-right:0;
+   border-radius: 3px 3px 0 0;
+   margin-bottom: 0;
+}
+
+.wrapper:before, .wrapper:after,
+.column:before, .column:after {
+    content: "";
+    display: table;
+}
+
+.wrapper:after,
+.column:after {
+    clear: both;
+}
+
+.column {
+    height: 99%;
+    overflow: auto;
+    zoom:1;
+}
+
+.column .padding {
+    padding-top: 49px;
+    width: 912px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.full{
+  padding-top:70px;
+}
+
+.box {
+    bottom: 0; /* increase for footer use */
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color:#E9EAED;
+  /*
+    background-image:url('/assets/example/bg_suburb.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+  */
+}
+
+.divider {
+  margin-top:32px;
+}
+#header .navbar-form{
+  margin-bottom: 0;
+  margin-top: 9px;
+  border: none;
+  padding-left: 8px;
+}
+#header .navbar-form input{
+  height: 25px;
+  font-weight: normal;
+}
+
+#header .navbar-form button{
+  height: 25px;
+}
+/* Avatar */
+.avatar{
+  width: 220px;
+  position: absolute;
+  z-index: 10;
+}
+.avatar a{
+  display: block;
+  width: 70%;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -130px;
+  left: 30px;
+  border-radius: 3px;
+}
+.avatar a img{
+  border: 4px solid #fff;
+}
+.author{
+    left: 215px;
+    top: -40px;
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 275px;
+    position: relative;
+}
